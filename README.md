@@ -9,3 +9,17 @@ pandas,numpy,matplotlib.pyplot
 
 ### Approach used
 Supervised Machine Learning (Linear regression)
+
+### Performed:
+Imported pandas, numpy and matplotlib.       
+The data containing hours and scores is kept in a dataframe df.
+Visualized the data as number of study hours v/s Percentage_Score.
+Dividing the data into inputs and outputs using .iloc[] indexer.        
+Splitted the data into training data and test data using Scikit-Learn's built-in train_test_split() method   
+Creates an instance of LinearRegression.
+Fits (trains) the model using X_train (input features) and Y_train (target values).   
+After training, the model (regressor) is ready to make predictions on new data.     
+Calculated the regression line based on the slope (regressor.coef_) and intercept (regressor.intercept_) learned during training.
+
+### Conclusion:
+Study hours and scores have a linear relationship.
